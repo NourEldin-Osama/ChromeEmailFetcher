@@ -10,12 +10,25 @@ It retrieves the email accounts of the user and saves them in a list.
 
 To use the script, you will need to have Python and Selenium installed on your machine.
 
-1. Clone the repository: ```git clone https://github.com/NourEldin-Osama/ChromeEmailFetcher.git```
-2. Install dependency: ```pip install -r requirements.txt```
-3. Run the script: ```python ChromePasswordsFetcher.py```
+1. Clone the repository:
+    ```commandline 
+    git clone https://github.com/NourEldin-Osama/ChromeEmailFetcher.git
+    ```
+2. Install dependency:
+    ```commandline
+    pip install -r requirements.txt
+    ```
+3. Run the script: 
+    ```commandline
+    python main.py
+    ```
 
 ## Note
 - It uses the current logged-in user so that the script only fetch the data for that user.
 - Script may fail if chrome profile is not set as default 
 - Script may fail if chrome is opened so make sure to close the browser before running the script 
-- Also note that script will open chrome in non-headless mode as in current script it will run chrome in GUI mode by default. if you wish to run it in headless mode, you can uncomment the line ```# self.options.add_argument('headless')```.
+- Also note that script will open chrome in non-headless mode as in current script it will run chrome in GUI mode by default. if you wish to run it in headless mode, you can uncomment the following line.
+```python
+# self.options.add_argument('headless')
+```
+
