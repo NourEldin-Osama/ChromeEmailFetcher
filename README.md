@@ -28,7 +28,7 @@ To use the script, you will need to have Python and Selenium installed on your m
 - Script may fail if chrome profile is not set as default 
 - Script may fail if chrome is opened so make sure to close the browser before running the script 
 - Also note that script will open chrome in non-headless mode as in current script it will run chrome in GUI mode by default. if you wish to run it in headless mode, you can uncomment the following line.
-```python
-# self.options.add_argument('headless')
-```
+    ```python
+    # self.options.add_argument('headless')
+    ```
 
